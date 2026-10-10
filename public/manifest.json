@@ -4,8 +4,8 @@
   "description": "A simple task manager and reminder app",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#4f46e5",
+  "background_color": "#00203f",
+  "theme_color": "#00203f",
   "icons": [
     {
       "src": "icon-192.png",
