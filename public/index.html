@@ -373,7 +373,7 @@
     .tabbar { display: none; }
     .toast { bottom: 32px; }
 
-    .layout { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 28px; align-items: start; }
+    .layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 24px; align-items: start; }
     .calendar-pane { position: sticky; top: 24px; }
 
     .toolbar .search { flex: 1 1 120px; }
@@ -383,18 +383,19 @@
     .task-table { width: 100%; border-collapse: collapse; table-layout: fixed; }
     .task-table th {
       text-align: left; font-size: 0.75rem; font-weight: 500; color: var(--ink-muted);
-      padding: 12px 16px; background: rgba(0, 0, 0, 0.14); border-bottom: 1px solid var(--navy-line);
+      padding: 12px 12px; background: rgba(0, 0, 0, 0.14); border-bottom: 1px solid var(--navy-line);
     }
-    .task-table td { padding: 13px 16px; vertical-align: middle; border-bottom: 1px solid var(--navy-line); }
+    .task-table td { padding: 13px 12px; vertical-align: middle; border-bottom: 1px solid var(--navy-line); }
     .task-table tbody tr:last-child td { border-bottom: none; }
     .task-table tr.task-row { transition: background 0.15s ease; }
     .task-table tr.task-row:hover { background: rgba(173, 239, 209, 0.04); }
     .task-table .group-row td { padding: 0; background: rgba(0, 0, 0, 0.14); }
     .c-check { width: 48px; }
-    .c-due { width: 176px; }
-    .c-pri { width: 104px; }
-    .c-cat { width: 150px; }
-    .c-actions { width: 88px; text-align: right; white-space: nowrap; }
+    .task-table .c-check { padding-left: 16px; padding-right: 0; }
+    .c-due { width: 128px; }
+    .c-pri { width: 92px; }
+    .c-cat { width: 112px; }
+    .c-actions { width: 84px; text-align: right; white-space: nowrap; }
     .c-actions .icon-btn { padding: 6px; }
   }
 
